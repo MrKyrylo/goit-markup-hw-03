@@ -13,98 +13,120 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="./images/Logo.png" class="logo link">Web <span class="studio-word-decorate-portfolio">Studio</span></a>
-            <ul class="list">
-                <li><a href="./index.html" class="portfolio-nav-item link">Studio</a></li>
-                <li><a href="./portfolio.html" class="portfolio-nav-item link">Portfolio</a></li>
-                <li><a href="" class="portfolio-nav-item link">Contacts</a></li>
-            </ul>
-        </nav>
-        <address class="main-contacts">
-            <ul class="list">
-                <li><a href="mailto:info@devstudio.com" class="general-contact-portfolio link">info@devstudio.com</a></li>
-                <li><a href="tel:110001111111" class="general-contact-portfolio link">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
+    <header class="header-portfolio">
+        <div class="nav-and-contacts container"> 
+            <nav class="nav-portfolio">
+                <a href="./images/Logo.png" class="logo link">Web <span class="studio-word-decorate-portfolio">Studio</span></a>
+                <ul class="list menu-list">
+                    <li><a href="./index.html" class="portfolio-nav-item link">Studio</a></li>
+                    <li><a href="./portfolio.html" class="portfolio-nav-item link">Portfolio</a></li>
+                    <li><a href="" class="portfolio-nav-item link">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="main-contacts">
+                <ul class="list contacts-list-portfolio">
+                    <li><a href="mailto:info@devstudio.com" class="general-contact-portfolio link">info@devstudio.com</a></li>
+                    <li><a href="tel:110001111111" class="general-contact-portfolio link">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+        </div>
     </header>
     <main>
-        <section>
-            <h1>.</h1>
-             <ul class="list">
-                <li><button type="button" class="button-portfolio">All</button></li>
-                <li><button type="button" class="button-portfolio">Web Site</button></li>
-                <li><button type="button" class="button-portfolio">App</button></li>
-                <li><button type="button" class="button-portfolio">Design</button></li>
-                <li><button type="button" class="button-portfolio">Marketing</button></li>
-            </ul>
-            
-            <ul class="list">
-                <li>
-                    <a class="link">
-                        <img src="./images/image8.jpg" alt="Banking App Interface Concept" width="360">
-                        <h2 class="advantages-headline">Banking App Interface Concept</h2>
-                        <p class="helpful-fitches">App</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link">
-                        <img src="./images/image1.jpg" alt="Cashless payment" width="360">
-                        <h2 class="advantages-headline">Cashless Payment</h2>
-                        <p class="helpful-fitches">Marketing</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link">
-                        <img src="./images/image2.jpg" alt="Meditation App" width="360">
-                        <h2 class="advantages-headline">Meditation App</h2>
-                        <p class="helpful-fitches">App</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link">
-                        <img src="./images/image3.jpg" alt="Taxi Service" width="360">
-                        <h2 class="advantages-headline">Taxi Service</h2>
-                        <p class="helpful-fitches">Marketing</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link">
-                        <img src="./images/image9.jpg" alt="Screen Illustrations" width="360">
-                        <h2 class="advantages-headline">Screen Illustrations</h2> 
-                        <p class="helpful-fitches">Design</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link">
-                        <img src="./images/image4.jpg" alt="Online Courses" width="360">
-                        <h2 class="advantages-headline">Online Courses</h2>
-                        <p class="helpful-fitches">Marketing</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link">
-                        <img src="./images/image5.jpg" alt="Instagram Stories Concept" width="360">
-                        <h2 class="advantages-headline">Instagram Stories Concept</h2>
-                        <p class="helpful-fitches">Design</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link">
-                        <img src="./images/image6.jpg" alt="Organic Food" width="360">
-                        <h2 class="advantages-headline">Organic Food</h2>
-                        <p class="helpful-fitches">Web Site</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link">
-                        <img src="./images/image7.jpg" alt="Fresh Coffee" width="360">
-                        <h2 class="advantages-headline">Fresh Coffee</h2>
-                        <p class="helpful-fitches">Web Site</p>
-                    </a>
-                </li>
-            </ul>   
+        <section class="main-section-portfolio">
+            <div class="container">
+                <h1 class="visually-hidden">.</h1>
+                <ul class="list buttons-list">
+                   <li><button type="button" class="button-portfolio">All</button></li>
+                   <li><button type="button" class="button-portfolio">Web Site</button></li>
+                   <li><button type="button" class="button-portfolio">App</button></li>
+                   <li><button type="button" class="button-portfolio">Design</button></li>
+                   <li><button type="button" class="button-portfolio">Marketing</button></li>
+               </ul>
+               
+               <ul class="list advantages-list">
+                   <li class="advantages-item">
+                       <a class="link">
+                            <img src="./images/image8.jpg" alt="Banking App Interface Concept" width="360">
+                            <div class="applications">
+                                <h2 class="advantages-headline">Banking App Interface Concept</h2>
+                                <p class="helpful-fitches">App</p>
+                            </div>
+                       </a>
+                    </li>
+                    <li>
+                       <a class="link">
+                           <img src="./images/image1.jpg" alt="Cashless payment" width="360">
+                            <div class="applications">
+                                <h2 class="advantages-headline">Cashless Payment</h2>
+                                <p class="helpful-fitches">Marketing</p>
+                            </div>
+                       </a>
+                    </li>
+                    <li>
+                        <a class="link">
+                            <img src="./images/image2.jpg" alt="Meditation App" width="360">
+                            <div class="applications">
+                                <h2 class="advantages-headline">Meditation App</h2>
+                                <p class="helpful-fitches">App</p>
+                            </div>    
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link">
+                            <img src="./images/image3.jpg" alt="Taxi Service" width="360">
+                            <div class="applications">
+                                <h2 class="advantages-headline">Taxi Service</h2>
+                                <p class="helpful-fitches">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link">
+                            <img src="./images/image9.jpg" alt="Screen Illustrations" width="360">
+                            <div class="applications">
+                                <h2 class="advantages-headline">Screen Illustrations</h2> 
+                                <p class="helpful-fitches">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link">
+                            <img src="./images/image4.jpg" alt="Online Courses" width="360">
+                            <div class="applications">
+                                <h2 class="advantages-headline">Online Courses</h2>
+                                <p class="helpful-fitches">Marketing</p>
+                            </div>
+                       </a>
+                    </li>
+                    <li>
+                        <a class="link">
+                            <img src="./images/image5.jpg" alt="Instagram Stories Concept" width="360">
+                            <div class="applications">
+                                <h2 class="advantages-headline">Instagram Stories Concept</h2>
+                                <p class="helpful-fitches">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link">
+                            <img src="./images/image6.jpg" alt="Organic Food" width="360">
+                            <div class="applications">
+                                <h2 class="advantages-headline">Organic Food</h2>
+                                <p class="helpful-fitches">Web Site</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link">
+                            <img src="./images/image7.jpg" alt="Fresh Coffee" width="360">
+                            <div class="applications">
+                                <h2 class="advantages-headline">Fresh Coffee</h2>
+                                <p class="helpful-fitches">Web Site</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="portfolio-footer">
