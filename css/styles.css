@@ -22,6 +22,7 @@ body {
     text-transform: uppercase;
     color: var(--blue);
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .studio-word-decorate {
@@ -284,6 +285,11 @@ body {
     color: #f4f4fd;
 }
 
+.container {
+    width: 800;
+    margin: 0 auto;
+}
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -298,10 +304,6 @@ body {
 .header-nav {
     display: flex;
     align-items: center;
-}
-
-.logo-link {
-    margin-right: 76px;
 }
 
 .menu-header {
@@ -357,6 +359,6 @@ body {
     gap: 24px;
 }
 
-.forth-section-container {
-    padding: 32px 0;
+.person-and-job {
+    padding:32px 0;
 }
