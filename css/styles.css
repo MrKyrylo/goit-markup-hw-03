@@ -340,6 +340,10 @@ body {
     gap: 24px;
 }
 
+.second-section-item {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
 .quality {
     margin-bottom: 8px;
     flex-basis: calc((100% - 72px) / 4);
