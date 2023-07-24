@@ -13,7 +13,7 @@ body {
     background-color: var(--white);
 }
 
-.logo {
+.logo-header {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -24,7 +24,6 @@ body {
     text-decoration: none;
     margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px;
 }
 
 .studio-word-decorate {
@@ -106,6 +105,7 @@ body {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .button-order-service:hover {
@@ -299,7 +299,7 @@ body {
 }
 
 .container {
-    max-width: 1128px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -311,9 +311,7 @@ body {
 
 .header-container {
     display: flex;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    align-items: center;
 }
 
 .header-nav {
@@ -340,12 +338,9 @@ body {
     gap: 24px;
 }
 
-.second-section-item {
-    flex-basis: calc((100%-72px)/4);
-}
-
 .quality {
     margin-bottom: 8px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .third-section-headline {
@@ -358,7 +353,7 @@ body {
 }
 
 .third-section-item {
-    flex-basis: calc((100%-48px)/3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .forth-section {
@@ -428,7 +423,7 @@ body {
 }
 
 .advantages-item {
-    flex-basis: calc((100%-48px)/3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .applications {
@@ -451,6 +446,29 @@ body {
 }
 
 .photo-item {
-    flex-basis: calc((100%-72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+}
+
+.h1 .h2 .h3 {
+    margin: 0;
+}
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--blue);
+    text-decoration: none;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
 }
