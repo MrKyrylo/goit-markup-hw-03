@@ -32,6 +32,8 @@ body {
 
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .link {
@@ -47,6 +49,7 @@ body {
     color: #2e2f42;
     text-decoration: none;
     padding: 24px 0;
+    display: inline-block;
 }
 
 .nav-item:hover {
@@ -60,6 +63,7 @@ body {
 .main-contacts {
     font-style: normal;
     list-style: none;
+    margin-left: auto;
 }
 
 .general-contact {
@@ -83,12 +87,16 @@ body {
 }
 
 .main-headline {
+    margin: 0;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color:#ffffff;
     max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-order-service {
@@ -106,6 +114,8 @@ body {
     border: none;
     border-radius: 4px;
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-order-service:hover {
@@ -118,6 +128,7 @@ body {
 
 .third-section-headline,
 .quality {
+    margin: 0;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -146,6 +157,7 @@ body {
 
 
 .quality-text {
+    margin: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
@@ -342,7 +354,6 @@ body {
 
 .quality {
     margin-bottom: 8px;
-    flex-basis: calc((100% - 72px) / 4);
 }
 
 .third-section-headline {
@@ -418,6 +429,8 @@ body {
 }
 
 .advantages-list {
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -447,10 +460,6 @@ body {
     overflow: hidden;
 }
 
-.h1, .h2, .h3 {
-    margin: 0;
-}
-
 .logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -463,11 +472,6 @@ body {
     margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
-}
-
-.ul {
-    margin: 0;
-    padding: 0;
 }
 
 .second-section-item {
